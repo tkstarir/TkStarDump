@@ -1,4 +1,5 @@
-# tdd
+# TkStarDump
+
 Clone of PHP var_dump
 
 
