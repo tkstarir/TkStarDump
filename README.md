@@ -3,7 +3,7 @@
 Clone of PHP var_dump
 
 
-Use This Function if You Have a Dedicated Framework, or You do not Love Use var_dump, or in Laravel do not Like dd Function
+Use This Function if You Have a Dedicated Framework, or You do not Love Use var_dump
 
 tdd Function is a Function for Handle Multiple inputs
 
