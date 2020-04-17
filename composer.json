@@ -1,0 +1,26 @@
+{
+	"name": "tkstarir/dumper",
+	"description": "Clone of \"var_dump\" Function for TkStar LaunchPad Framework",
+	"keywords": [
+		"var_dump",
+		"tdd",
+		"tkstar_dump"
+	],
+	"type": "plugin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "TkStar Company",
+			"email": "info@tkstar.ir"
+		}
+	],
+	"autoload": {
+		"files": ["src/TkStarDump.php"]
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.2"
+	},
+	"scripts": {}
+}
