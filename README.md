@@ -1,48 +1,48 @@
-# TkStarDump
+# tdd
 Clone of PHP var_dump
 
 
 Use This Function if You Have a Dedicated Framework, or You do not Love Use var_dump, or in Laravel do not Like dd Function
 
-TkStarDump Function is a Function for Handle Multiple inputs
+tdd Function is a Function for Handle Multiple inputs
 
-You can Use Every Both of Them: TkStarDump(mixed multiple) or TkStarDumpHandler(mixed single)
+You can Use Every Both of Them: tdd(mixed multiple) or tddHandler(mixed single)
 
 Samples:
 
 
 ## Single Parametr Samples:
 ```
-	TkStarDump("amirali esteki");
-	TkStarDump("amirali esteki 1378");
-	TkStarDump("1378");
-	TkStarDump(1378);
-	TkStarDump(1.1);
-	TkStarDump(1.123456789);
-	TkStarDump(true);
-	TkStarDump(false);
-	TkStarDump(1);
-	TkStarDump(0);
-	TkStarDump(curl_init());
-	TkStarDump(null);
-	TkStarDump(array());
-	TkStarDump(array(array()));
-	TkStarDump(array('name' => 'TkStar', 'details' => array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	TkStarDump((object)array());
-	TkStarDump((object)array('name' => 'TkStar', 'details' => (object)array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
+	tdd("amirali esteki");
+	tdd("amirali esteki 1378");
+	tdd("1378");
+	tdd(1378);
+	tdd(1.1);
+	tdd(1.123456789);
+	tdd(true);
+	tdd(false);
+	tdd(1);
+	tdd(0);
+	tdd(curl_init());
+	tdd(null);
+	tdd(array());
+	tdd(array(array()));
+	tdd(array('name' => 'TkStar', 'details' => array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
+	tdd((object)array());
+	tdd((object)array('name' => 'TkStar', 'details' => (object)array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
 	class amirali { }
-	TkStarDump(new amirali());
-	TkStarDump((object)array('first' => new amirali(), 'last' => new amirali(), (object)array()));
+	tdd(new amirali());
+	tdd((object)array('first' => new amirali(), 'last' => new amirali(), (object)array()));
 ```
 
 
 ## Multiple Parametrs Samples:
 ```
-	TkStarDump("amirali esteki", "amirali", "esteki", 1378);
-	TkStarDump(1.1, 1.123456789);
-	TkStarDump(true, false, 1, 0);
-	TkStarDump(curl_init(), null);
-	TkStarDump("amirali", array(), array(array()), array('name' => 'TkStar', 'details' => array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	TkStarDump((object)array(), (object)array('name' => 'TkStar', 'details' => (object)array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	TkStarDump((object)array('first' => new amirali(), 'last' => new amirali(), (object)array()));
+	tdd("amirali esteki", "amirali", "esteki", 1378);
+	tdd(1.1, 1.123456789);
+	tdd(true, false, 1, 0);
+	tdd(curl_init(), null);
+	tdd("amirali", array(), array(array()), array('name' => 'TkStar', 'details' => array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
+	tdd((object)array(), (object)array('name' => 'TkStar', 'details' => (object)array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
+	tdd((object)array('first' => new amirali(), 'last' => new amirali(), (object)array()));
 ```
