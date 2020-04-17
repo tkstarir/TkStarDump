@@ -1,5 +1,5 @@
 # TkStarDump
-Clone of PHP var_dump or Laravel dd Function
+Clone of PHP var_dump
 
 
 Use This Function if You Have a Dedicated Framework, or You do not Love Use var_dump, or in Laravel do not Like dd Function
