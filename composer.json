@@ -1,5 +1,5 @@
 {
-    "name": "TkStarIR/TkStarDump",
+    "name": "tkstarir/tkstardump",
     "description": "Clone of \"var_dump\" Function for TkStar LaunchPad Framework",
     "keywords": [
         "var_dump",
