@@ -1,27 +1,27 @@
 {
-	"name": "tkstarir/tkstardump",
-	"description": "Clone of \"var_dump\" Function for TkStar LaunchPad Framework",
-	"keywords": [
-		"var_dump",
-		"tdd",
-		"tkstar_dump",
-		"tkstardump"
-	],
-	"type": "plugin",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "TkStar Company",
-			"email": "info@tkstar.ir"
-		}
-	],
-	"autoload": {
-		"files": ["src/TkStarDump.php"]
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"require": {
-		"php": ">=8.0"
-	},
-	"scripts": {}
+    "name": "TkStarIR/TkStarDump",
+    "description": "Clone of \"var_dump\" Function for TkStar LaunchPad Framework",
+    "keywords": [
+        "var_dump",
+        "tdd",
+        "tkstar_dump",
+        "tkstardump"
+    ],
+    "type": "plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TkStar Company",
+            "email": "info@tkstar.ir"
+        }
+    ],
+    "autoload": {
+        "files": ["src/TkStarDump.php"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0"
+    },
+    "scripts": {}
 }
