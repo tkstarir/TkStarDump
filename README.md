@@ -1,49 +1,75 @@
 # TkStarDump
 
-Clone of PHP var_dump
+Clone of PHP var_dump with Alias
+
+Use this function if you have a dedicated framework, or you do not like use var_dump
+
+TDD Function is aliases of TkStarDumpHandler
 
 
-Use This Function if You Have a Dedicated Framework, or You do not Love Use var_dump
-
-tdd Function is a Function for Handle Multiple inputs
-
-You can Use Every Both of Them: tdd(mixed multiple) or tddHandler(mixed single)
-
-Samples:
+## Part of TkStar LaunchPad Framework
+**_This Package is a part of [LaunchPad Framework](https://github.com/TkStarIR/LaunchPad)_**
 
 
-## Single Parametr Samples:
+## Single Parameter Samples:
 ```
-	tdd("amirali esteki");
-	tdd("amirali esteki 1378");
-	tdd("1378");
-	tdd(1378);
-	tdd(1.1);
-	tdd(1.123456789);
-	tdd(true);
-	tdd(false);
-	tdd(1);
-	tdd(0);
-	tdd(curl_init());
-	tdd(null);
-	tdd(array());
-	tdd(array(array()));
-	tdd(array('name' => 'TkStar', 'details' => array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	tdd((object)array());
-	tdd((object)array('name' => 'TkStar', 'details' => (object)array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	class amirali { }
-	tdd(new amirali());
-	tdd((object)array('first' => new amirali(), 'last' => new amirali(), (object)array()));
+<?php
+tdd('AmirAli Esteki'); // String
+
+tdd('AmirAli Esteki 1378'); // String
+
+tdd('1378'); // Integer as String
+
+tdd(1378); // Integer
+
+tdd(1.1); // Float | Double
+
+tdd(1.123456789); // Float | Double
+
+tdd(true); // Boolean
+
+tdd(false); // Boolean
+
+tdd(1); // Boolean
+
+tdd(0); // Boolean
+
+tdd(curl_init()); // CurlHandle Object | Resource
+
+tdd(null); // NULL
+
+tdd(array()); // Array
+
+tdd(array(array())); // Array
+
+tdd(array('name' => 'TkStar', 'details' => array('name' => 'AmirAli', 'family' => 'Esteki', 'birthday' => '1378'))); // Array
+
+tdd((object)array()); // stdClass Object
+
+tdd((object)array('name' => 'TkStar', 'details' => (object)array('name' => 'AmirAli', 'family' => 'Esteki', 'birthday' => '1378'))); // stdClass Object
+
+tdd(new AmirAli(){ }); // AmirAli Object
+
+tdd((object)array('first' => new AmirAli(), 'last' => new AmirAli(), (object)array())); // stdClass Object
+?>
 ```
 
 
 ## Multiple Parametrs Samples:
 ```
-	tdd("amirali esteki", "amirali", "esteki", 1378);
-	tdd(1.1, 1.123456789);
-	tdd(true, false, 1, 0);
-	tdd(curl_init(), null);
-	tdd("amirali", array(), array(array()), array('name' => 'TkStar', 'details' => array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	tdd((object)array(), (object)array('name' => 'TkStar', 'details' => (object)array('name' => 'amirali', 'family' => 'esteki', 'birthday' => '1378')));
-	tdd((object)array('first' => new amirali(), 'last' => new amirali(), (object)array()));
+<?php
+tdd('AmirAli Esteki', 'AmirAli', 'Esteki', 1378); // String, String, String, Integer
+
+tdd(1.1, 1.123456789); // Float | Double, Float | Double
+
+tdd(true, false, 1, 0); // Boolean, Boolean, Boolean, Boolean
+
+tdd(curl_init(), null); // CurlHandle Object | Resource, NULL
+
+tdd('AmirAli', array(), array(array()), array('name' => 'TkStar', 'details' => array('name' => 'AmirAli', 'family' => 'Esteki', 'birthday' => '1378'))); // String, Array, Array, Array
+
+tdd((object)array(), (object)array('name' => 'TkStar', 'details' => (object)array('name' => 'AmirAli', 'family' => 'Esteki', 'birthday' => '1378'))); // stdClass Object | stdClass Object
+
+tdd((object)array('first' => new AmirAli(), 'last' => new AmirAli(), (object)array())); // stdClass Object
+?>
 ```
