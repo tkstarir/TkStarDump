@@ -1,10 +1,11 @@
 {
-	"name": "tkstarir/dumper",
+	"name": "tkstarir/tkstardump",
 	"description": "Clone of \"var_dump\" Function for TkStar LaunchPad Framework",
 	"keywords": [
 		"var_dump",
 		"tdd",
-		"tkstar_dump"
+		"tkstar_dump",
+		"tkstardump"
 	],
 	"type": "plugin",
 	"license": "MIT",
